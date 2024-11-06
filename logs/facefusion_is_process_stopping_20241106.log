@@ -1,0 +1,42 @@
+
+====================================================================================================
+[TIMESTAMP] 2024-11-06 13:35:13.824081
+[CALL STACK] core.py::process_video -> utilities.py::wrapper -> core.py::run -> utilities.py::wrapper -> core.py::cli -> utilities.py::wrapper -> facefusion.py::<module>
+[FUNCTION] core.py::is_process_stopping
+[CALLER] core.py::process_video
+[ARGS] None
+[KWARGS] None
+[START] Function execution started
+
+[NESTED CALLS]
+  {
+  "function": "is_process_stopping",
+  "file": "core.py",
+  "args": {}
+}
+  {
+  "function": "is_stopping",
+  "file": "process_manager.py",
+  "args": {}
+}
+  {
+  "function": "get_process_state",
+  "file": "process_manager.py",
+  "args": {}
+}
+  {
+  "function": "is_pending",
+  "file": "process_manager.py",
+  "args": {}
+}
+  {
+  "function": "get_process_state",
+  "file": "process_manager.py",
+  "args": {}
+}
+
+[RESULT] False
+[DURATION] 0.0004 seconds
+[END] Function execution completed successfully
+====================================================================================================
+
